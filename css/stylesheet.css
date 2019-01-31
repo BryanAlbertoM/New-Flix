@@ -16,17 +16,23 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: red;
+}
 .logoTop{
     float: left;
     display: inline-block;
     background:#e56399;
-    padding: 5px;
+    padding: 15px;
     margin-right: 15px;
 }
 .leftMenu{
     float: left;
     display: inline-block;
-    background:#efa00b;
 }
 .leftMenu ul{
     list-style: none;
@@ -38,12 +44,14 @@ body{
     padding: 15px;
 }
 .leftMenu ul li a{
-    color: white;
+  
+}
+.leftMenu ul li a:hover{
+
 }
 .rightMenu{
     float: right;
     display: inline-block;
-    background:#058ed9;
     color:black;
 }
 .rightMenu ul{
@@ -56,7 +64,10 @@ body{
     padding:15px;
 }
 .rightMenu ul li a{
-    color:white;
+ 
+}
+.rightMenu ul li a:hover{
+
 }
 .imgLarge{
     padding:200px 25px;
@@ -84,9 +95,82 @@ margin:0;
 }
 .descriptionBox h4{
 font-weight: 300;
-margin: 0;
+margin-top: 15px;
 }
-
+.buttonOne{
+   display: inline-block;
+   padding: 12px 20px;
+   background: #000;
+   color:#fff;
+   cursor: pointer; 
+}
+.buttonTwo{
+   display: inline-block;
+   padding: 10px 18px;
+   border: 2px solid #000;
+   cursor: pointer;
+}
+.worthWatching{
+    width:100%;
+    background:rgb(10,35,66);
+}
+.row{
+    width:100%;
+    font-size: 0;
+}
+.filmDisplay{
+    display: inline-block;
+    background:red;
+    width:15%;
+    height:250px;
+    font-size:0px;
+    margin:2.5%;
+}
+.film1{
+   background:url(../img/bestday.jpg) no-repeat left center;
+   background-size: cover;
+   text-shadow:/*adds the outline to the text for ease of sight */
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+.film2{
+   background:url(../img/happy.jpg) no-repeat left center;
+   background-size: cover;
+   text-shadow:/*adds the outline to the text for ease of sight */
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+.film3{
+   background:url(../img/runners.jpg) no-repeat left center;
+   background-size: cover;
+   text-shadow:/*adds the outline to the text for ease of sight */
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+.film4{
+   background:url(../img/zulupro.jpg) no-repeat left center;
+   background-size: cover;
+   text-shadow:/*adds the outline to the text for ease of sight */
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+.film5{
+   background:url(../img/pilot.jpg) no-repeat left center;
+   background-size: cover;
+   text-shadow:/*adds the outline to the text for ease of sight */
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
 footer{
     color:#000;
 }
