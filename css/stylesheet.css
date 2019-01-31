@@ -35,7 +35,10 @@ body{
 }
 .leftMenu ul li{
     display: inline-block;
-    padding: 5px;
+    padding: 15px;
+}
+.leftMenu ul li a{
+    color: white;
 }
 .rightMenu{
     float: right;
@@ -50,15 +53,40 @@ body{
 }
 .rightMenu ul li{
     display:inline-block;
-    padding:5px;
+    padding:15px;
+}
+.rightMenu ul li a{
+    color:white;
 }
 .imgLarge{
     padding:200px 25px;
-    background:url(../img/protector.jpg) no-repeat left;
+    background:url(../img/protector.jpg) no-repeat left center;
     background-size: cover;
     text-shadow:/*adds the outline to the text for ease of sight */
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+.descriptionBox{
+width:50%;
+background:rgba(10,35,66,.95);
+}
+.descriptionBox h1{
+font-size: 55px;
+font-weight: 800;
+margin:0;
+}
+.descriptionBox h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.descriptionBox h4{
+font-weight: 300;
+margin: 0;
+}
+
+footer{
+    color:#000;
 }
