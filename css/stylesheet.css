@@ -129,47 +129,22 @@ margin-top: 15px;
 .film1{
    background:url(../img/bestday.jpg) no-repeat left center;
    background-size: cover;
-   text-shadow:/*adds the outline to the text for ease of sight */
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
 }
 .film2{
    background:url(../img/happy.jpg) no-repeat left center;
    background-size: cover;
-   text-shadow:/*adds the outline to the text for ease of sight */
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
 }
 .film3{
    background:url(../img/runners.jpg) no-repeat left center;
    background-size: cover;
-   text-shadow:/*adds the outline to the text for ease of sight */
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
 }
 .film4{
    background:url(../img/zulupro.jpg) no-repeat left center;
    background-size: cover;
-   text-shadow:/*adds the outline to the text for ease of sight */
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
 }
 .film5{
    background:url(../img/pilot.jpg) no-repeat left center;
    background-size: cover;
-   text-shadow:/*adds the outline to the text for ease of sight */
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
 }
 footer{
     color:#000;
