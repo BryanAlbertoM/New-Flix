@@ -1,0 +1,64 @@
+/*  
+color:
+#0a2342
+#058ed9
+#20bf55
+#efaoob
+*/
+body{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+}
+.header{
+    background:#0a2342;
+    color:white;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logoTop{
+    float: left;
+    display: inline-block;
+    background:#e56399;
+    padding: 5px;
+    margin-right: 15px;
+}
+.leftMenu{
+    float: left;
+    display: inline-block;
+    background:#efa00b;
+}
+.leftMenu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.leftMenu ul li{
+    display: inline-block;
+    padding: 5px;
+}
+.rightMenu{
+    float: right;
+    display: inline-block;
+    background:#058ed9;
+    color:black;
+}
+.rightMenu ul{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+.rightMenu ul li{
+    display:inline-block;
+    padding:5px;
+}
+.imgLarge{
+    padding:200px 25px;
+    background:url(../img/protector.jpg) no-repeat left;
+    background-size: cover;
+    text-shadow:/*adds the outline to the text for ease of sight */
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
